@@ -44,5 +44,22 @@ public class FraccionTest {
     public void testDecimal() {
         assertEquals(2.0/3.0, fraccion.decimal(), 1e-10);
     }
+    
+    @Test
+    public void testIsPropia() {
+        assertEquals(true, fraccion.isImpropia());
+    }
+    
+    @Test
+    public void testIsImpropia() {
+        assertEquals(false, fraccion.isImpropia());
+    }
+
+    @Test
+    public void testInvertir() {
+        this.fraccion.invertir();
+        assertEquals(3, this.fraccion.getNumerador());
+        assertEquals(2, this.fraccion.getDenominador()); 
+    }
 
 }
