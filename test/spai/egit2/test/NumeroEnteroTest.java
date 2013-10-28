@@ -27,11 +27,6 @@ public class NumeroEnteroTest {
         assertEquals(-10, numero.getValor());
     }
 
-    @Test
-    public void testIncrementar() {
-        this.numero.incrementar();
-        assertEquals(101, this.numero.getValor());
-    }
 
     @Test
     public void testDoblar() {
@@ -39,12 +34,19 @@ public class NumeroEnteroTest {
         assertEquals(200, this.numero.getValor());
     }
 
+    
+    @Test
+    public void testIncrementar() {
+        this.numero.incrementar(5);
+        assertEquals(105, this.numero.getValor());
+    }
+
     @Test
     public void testDecrementar() {
-        this.numero.decrementar();
-        assertEquals(99, numero.getValor());
+        this.numero.decrementar(5);
+        assertEquals(95, numero.getValor());
         numero = new NumeroEntero();
-        this.numero.decrementar();
+        this.numero.decrementar(1);
         assertEquals(-1, numero.getValor());
     }
 
