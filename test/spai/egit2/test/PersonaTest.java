@@ -46,5 +46,10 @@ public class PersonaTest {
     public void testNombreCompleto() {
         assertEquals("Ana Vega", this.persona.nombreCompleto());
     }
+    
+    @Test
+    public void testNombreCompletoMayusculas() {
+        assertEquals("ANA VEGA", this.persona.nombreCompletoMayusculas());
+    }
 
 }
