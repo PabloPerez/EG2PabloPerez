@@ -47,7 +47,7 @@ public class FraccionTest {
     
     @Test
     public void testIsPropia() {
-        assertEquals(true, fraccion.isImpropia());
+        assertEquals(true, fraccion.isPropia());
     }
     
     @Test
