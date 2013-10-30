@@ -25,13 +25,11 @@ public class NumeroEntero {
 
 
     public void incrementar(int i) {
-        // TODO Auto-generated method stub
-        
+    	 this.setValor(this.valor + i);
     }
 
     public void decrementar(int i) {
-        // TODO Auto-generated method stub
-        
+    	this.setValor(this.valor - i);
     }
 
 }
