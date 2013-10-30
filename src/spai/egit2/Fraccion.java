@@ -75,4 +75,8 @@ public class Fraccion {
     public boolean isImpropia() {
         return numerador > denominador;
     }
+    
+    public boolean isPropia() {
+        return numerador < denominador;
+    }
 }
