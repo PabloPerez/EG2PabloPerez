@@ -68,7 +68,6 @@ public class Fraccion {
     }
 
     public void invertir() {
-        // TODO Auto-generated method stub
         
     }
 
