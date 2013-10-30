@@ -33,5 +33,13 @@ public class ColeccionDecimales {
         }
         return mayor;
     }
+    
+    public Double multiplicacion() {
+        double multiplicacion = 1;
+        for (double item : this.coleccion) {
+            multiplicacion *= item;
+        }
+        return multiplicacion;
+    }
 
 }
