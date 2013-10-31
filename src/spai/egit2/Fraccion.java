@@ -11,22 +11,22 @@ package spai.egit2;
  * producto de medios
  * 
  * Las fracciones irreducibles son aquellas que no se pueden simplificar, esto
- * sucede cuando el numerador y el denominador son primos entre s�
+ * sucede cuando el numerador y el denominador son primos entre si
  * 
- * Reducir varias fracciones a com�n denominador consiste en convertirlas en
+ * Reducir varias fracciones a comun denominador consiste en convertirlas en
  * otras equivalentes que tengan el mismo denominador
  * 
  * Comparar fracciones
  * 
- * Suma fracciones: En primer lugar se reducen los denominadores a com�n
+ * Suma fracciones: En primer lugar se reducen los denominadores a comun
  * denominador, y se suman o se restan los numeradores de las fracciones
  * equivalentes obtenidas
  * 
- * Multiplicaci�n: La multiplicaci�n de dos fracciones es otra fracci�n
+ * Multiplicacion: La multiplicacion de dos fracciones es otra fraccion
  * que tiene: Por numerador el producto de los numeradores. Por denominador el
  * producto de los denominadores.
  * 
- * La divisi�n de dos fracciones es otra fracci�n que tiene: Por numerador
+ * La division de dos fracciones es otra fraccion que tiene: Por numerador
  * el producto de los extremos. Por denominador el producto de los medios.
  * Invertir fraccion
  * 
